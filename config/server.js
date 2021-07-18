@@ -8,8 +8,3 @@ module.exports = ({ env }) => ({
     },
   },
 });
-const server = new ApolloServer({ typeDefs, resolvers });
-
-const port = 1337;
-
-server.listen({ port });
